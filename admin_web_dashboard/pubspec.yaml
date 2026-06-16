@@ -1,0 +1,17 @@
+name: ludo_admin_dashboard
+description: A high-fidelity, production-grade Flutter Web Admin Dashboard for Ludo Master.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

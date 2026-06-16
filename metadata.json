@@ -1,0 +1,6 @@
+{
+  "name": "Ludo Master",
+  "description": "Multi-screen high-performance Ludo adventure featuring authentic interactive gameplay, local offline play, tournaments, settings, profile customizers, shop, live chats, and an integrated AI gaming bot bot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

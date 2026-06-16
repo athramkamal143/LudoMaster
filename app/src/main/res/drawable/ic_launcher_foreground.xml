@@ -1,0 +1,309 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- LAYER 1: BACKDROP DROPSHADOW FOR TOKENS AND DICE (DEEP BLACK OVERLAY) -->
+    <path
+        android:pathData="M34,48 a4.5,4.5 0 1 1 0,9 a4.5,4.5 0 1 1 0,-9 M30,71 L38,71 C38,69 36.5,61 36.5,53.5 L31.5,53.5 C31.5,61 30,69 30,71 Z"
+        android:fillColor="#4D000000" />
+    <path
+        android:pathData="M74,48 a4.5,4.5 0 1 1 0,9 a4.5,4.5 0 1 1 0,-9 M70,71 L78,71 C78,69 76.5,61 76.5,53.5 L71.5,53.5 C71.5,61 70,69 70,71 Z"
+        android:fillColor="#4D000000" />
+    <path
+        android:pathData="M54,51 L69.5,56.5 L54,61.5 L38.5,56.5 Z M38.5,56.5 L54,61.5 L54,75.5 L38.5,70.5 Z M54,61.5 L69.5,56.5 L69.5,70.5 L54,75.5 Z"
+        android:fillColor="#33000000" />
+
+    <!-- LAYER 2: BLUE STANDARD LUDO TOKEN (RIGHT) -->
+    <!-- Head -->
+    <path
+        android:pathData="M74,46 a4,4 0 1 1 0,8 a4,4 0 1 1 0,-8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="70"
+                android:startY="46"
+                android:endX="78"
+                android:endY="54"
+                android:type="linear">
+                <item android:color="#40C4FF" android:offset="0.0" />
+                <item android:color="#0091EA" android:offset="0.6" />
+                <item android:color="#0D47A1" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Body -->
+    <path
+        android:pathData="M70,69 L78,69 C78,67 76.5,60 76.5,52.5 L71.5,52.5 C71.5,60 70,67 70,69 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="70"
+                android:startY="52"
+                android:endX="78"
+                android:endY="69"
+                android:type="linear">
+                <item android:color="#00B0FF" android:offset="0.0" />
+                <item android:color="#0091EA" android:offset="0.5" />
+                <item android:color="#0A3178" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Specular Gloss Highlight -->
+    <path
+        android:pathData="M72,52.5 C72.5,56 71.5,64 71.5,68.5"
+        android:strokeWidth="0.8"
+        android:strokeColor="#80FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- LAYER 3: RED STANDARD LUDO TOKEN (LEFT) -->
+    <!-- Head -->
+    <path
+        android:pathData="M34,46 a4,4 0 1 1 0,8 a4,4 0 1 1 0,-8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="46"
+                android:endX="38"
+                android:endY="54"
+                android:type="linear">
+                <item android:color="#FF5252" android:offset="0.0" />
+                <item android:color="#FF1744" android:offset="0.6" />
+                <item android:color="#B71C1C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Body -->
+    <path
+        android:pathData="M30,69 L38,69 C38,67 36.5,60 36.5,52.5 L31.5,52.5 C31.5,60 30,67 30,69 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="52"
+                android:endX="38"
+                android:endY="69"
+                android:type="linear">
+                <item android:color="#FF3D00" android:offset="0.0" />
+                <item android:color="#D50000" android:offset="0.5" />
+                <item android:color="#7F0000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Specular Gloss Highlight -->
+    <path
+        android:pathData="M32,52.5 C32.5,56 31.5,64 31.5,68.5"
+        android:strokeWidth="0.8"
+        android:strokeColor="#80FFFFFF"
+        android:strokeLineCap="round" />
+
+
+    <!-- LAYER 4: MAJESTIC GOLD CHAMPION CROWN -->
+    <!-- Crown Shadows and Outer Outline -->
+    <path
+        android:pathData="M27.5,28.5 L38,34.5 L54,18.5 L70,34.5 L80.5,28.5 L77,44.5 C77,46.5 31,46.5 31,44.5 Z"
+        android:fillColor="#1A000000" />
+
+    <!-- Crown Body -->
+    <path
+        android:pathData="M28,29 L38.5,35 L54,19 L69.5,35 L80,29 L76,43.5 C76,45.5 32,45.5 32,43.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="19"
+                android:endX="76"
+                android:endY="45"
+                android:type="linear">
+                <item android:color="#FFE082" android:offset="0.0" />
+                <item android:color="#FFB300" android:offset="0.5" />
+                <item android:color="#FF8F00" android:offset="0.85" />
+                <item android:color="#FF6F00" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Highlights (Gold Outlines) -->
+    <path
+        android:pathData="M29,30 L38.5,36.2 L54,20.5 L69.5,36.2 L79,30 L75.5,42.5 C75.5,44 32.5,44 32.5,42.5 Z"
+        android:strokeWidth="0.8"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- Ruby Crown Jewels -->
+    <!-- Left Jewel (Green Emerald) -->
+    <path
+        android:pathData="M28,27 a2,2 0 1 1 0,4 a2,2 0 1 1 0,-4"
+        android:fillColor="#2ECC71" />
+    <path
+        android:pathData="M28,27 a2,2 0 1 1 0,4 a2,2 0 1 1 0,-4"
+        android:strokeWidth="0.5"
+        android:strokeColor="#27AE60"
+        android:fillColor="#00000000" />
+
+    <!-- Center Jewel (Grand Ruby Red) -->
+    <path
+        android:pathData="M54,16 a3,3 0 1 1 0,6 a3,3 0 1 1 0,-6"
+        android:fillColor="#E74C3C" />
+    <path
+        android:pathData="M54,16 a3,3 0 1 1 0,6 a3,3 0 1 1 0,-6"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C0392B"
+        android:fillColor="#00000000" />
+    <!-- Reflection dot on center Ruby -->
+    <path
+        android:pathData="M53,17 a0.8,0.8 0 1 1 0,1.6 a0.8,0.8 0 1 1 0,-1.6"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Right Jewel (Blue Sapphire) -->
+    <path
+        android:pathData="M80,27 a2,2 0 1 1 0,4 a2,2 0 1 1 0,-4"
+        android:fillColor="#3498DB" />
+    <path
+        android:pathData="M80,27 a2,2 0 1 1 0,4 a2,2 0 1 1 0,-4"
+        android:strokeWidth="0.5"
+        android:strokeColor="#2980B9"
+        android:fillColor="#00000000" />
+
+    <!-- Crown Base Band Details -->
+    <path
+        android:pathData="M32,43 C32,45 76,45 76,43 L76,40.5 C76,42.5 32,42.5 32,40.5 Z"
+        android:fillColor="#E65100" />
+    <!-- Three Band Jewels -->
+    <path
+        android:pathData="M54,41.8 a1,1 0 1 1 0,2 a1,1 0 1 1 0,-2"
+        android:fillColor="#D50000" />
+    <path
+        android:pathData="M44,41.8 a0.8,0.8 0 1 1 0,1.6 a0.8,0.8 0 1 1 0,-1.6"
+        android:fillColor="#0091EA" />
+    <path
+        android:pathData="M64,41.8 a0.8,0.8 0 1 1 0,1.6 a0.8,0.8 0 1 1 0,-1.6"
+        android:fillColor="#00C853" />
+
+
+    <!-- LAYER 5: 3D SHADED CLASSIC LUDO DICE -->
+    <!-- Top Face -->
+    <path
+        android:pathData="M54,49 L68,54 L54,59 L40,54 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Left Face -->
+    <path
+        android:pathData="M40,54 L54,59 L54,73 L40,68 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="54"
+                android:endX="54"
+                android:endY="73"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#E0E0E0" android:offset="0.6" />
+                <item android:color="#CCCCCC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Right Face -->
+    <path
+        android:pathData="M54,59 L68,54 L68,68 L54,73 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="59"
+                android:endX="68"
+                android:endY="73"
+                android:type="linear">
+                <item android:color="#E0E0E0" android:offset="0.0" />
+                <item android:color="#CBCBCB" android:offset="0.5" />
+                <item android:color="#9E9E9E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Dice Borders & Grid Highlight -->
+    <path
+        android:pathData="M54,49 L68,54 L54,59 L40,54 Z M40,54 L54,59 L54,73 L40,68 Z M54,59 L68,54 L68,68 L54,73 Z"
+        android:strokeWidth="0.5"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- DICE DOTS (PIPS) -->
+    <!-- Top Face Central dot (value: 1) -->
+    <path
+        android:pathData="M54,52.5 a1.5,1.5 0 1 1 0,3 a1.5,1.5 0 1 1 0,-3"
+        android:fillColor="#D50000" /> <!-- Red center dot for premium feel -->
+
+    <!-- Left Face dots (value: 2) -->
+    <path
+        android:pathData="M44.5,58.8 a1.2,1.2 0 1 1 0,2.4 a1.2,1.2 0 1 1 0,-2.4"
+        android:fillColor="#212121" />
+    <path
+        android:pathData="M48.5,63.8 a1.2,1.2 0 1 1 0,2.4 a1.2,1.2 0 1 1 0,-2.4"
+        android:fillColor="#212121" />
+
+    <!-- Right Face dots (value: 3) -->
+    <path
+        android:pathData="M57.5,63 a1.2,1.2 0 1 1 0,2.4 a1.2,1.2 0 1 1 0,-2.4"
+        android:fillColor="#212121" />
+    <path
+        android:pathData="M60.5,60 a1.2,1.2 0 1 1 0,2.4 a1.2,1.2 0 1 1 0,-2.4"
+        android:fillColor="#212121" />
+    <path
+        android:pathData="M63.5,57 a1.2,1.2 0 1 1 0,2.4 a1.2,1.2 0 1 1 0,-2.4"
+        android:fillColor="#212121" />
+
+
+    <!-- LAYER 6: RED CHAMPION RIBBON BANNER -->
+    <!-- Ribbon Shadows and Tails -->
+    <!-- Left Fold back -->
+    <path
+        android:pathData="M24,76 L18,80 L24,82 Z"
+        android:fillColor="#800000" />
+    <!-- Right Fold back -->
+    <path
+        android:pathData="M84,76 L90,80 L84,82 Z"
+        android:fillColor="#800000" />
+
+    <!-- Ribbon Main Banner Body -->
+    <path
+        android:pathData="M24,76 C24,76 54,82 84,76 L82,82 C54,88 26,82 24,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="76"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#FF3D00" android:offset="0.0" />
+                <item android:color="#D50000" android:offset="0.5" />
+                <item android:color="#C51162" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Gold Ribbon Trim Outline -->
+    <path
+        android:pathData="M24,76 C24,76 54,82 84,76 L82,82 C54,88 26,82 24,76 Z"
+        android:strokeWidth="0.8"
+        android:strokeColor="#FFD54F"
+        android:fillColor="#00000000" />
+
+    <!-- Stars on the Award Banner to indicate "LUDO MASTER" -->
+    <!-- Left Star -->
+    <path
+        android:pathData="M32,77 L33,78.5 L34.8,78.5 L33.2,79.5 L33.8,81 L32,80 L30.2,81 L30.8,79.5 L29.2,78.5 L31,78.5 Z"
+        android:fillColor="#FFD54F" />
+
+    <!-- Right Star -->
+    <path
+        android:pathData="M76,77 L77,78.5 L78.8,78.5 L77.2,79.5 L77.8,81 L76,80 L74.2,81 L74.8,79.5 L73.2,78.5 L75,78.5 Z"
+        android:fillColor="#FFD54F" />
+
+    <!-- Central Micro Gold Ribbon Emblem (Shield) -->
+    <path
+        android:pathData="M51,77.5 L57,77.5 L57,81 L54,83 L51,81 Z"
+        android:fillColor="#FFC107" />
+    <path
+        android:pathData="M51,77.5 L57,77.5 L57,81 L54,83 L51,81 Z"
+        android:strokeWidth="0.5"
+        android:strokeColor="#FF8F00"
+        android:fillColor="#00000000" />
+
+</vector>
